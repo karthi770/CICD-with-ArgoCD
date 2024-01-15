@@ -4,14 +4,13 @@
 
 Create an EC2 instance with t2.large and setup the security groups.
 
-![Untitled](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/42b275a5-6bc7-4166-a70f-3f32f5e5ca3f)
+![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled.png)
 
-![Untitled](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/42b275a5-6bc7-4166-a70f-3f32f5e5ca3f)
-
+![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%201.png)
 
 Create an IAM role with Admin access and attach it to the EC2 instance.
 
-![Untitled](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/42b275a5-6bc7-4166-a70f-3f32f5e5ca3f)
+![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%202.png)
 
 Install docker in the EC2 instance
 
@@ -80,15 +79,15 @@ kubectl create -f https://operatorhub.io/install/argocd-operator.yaml
 
 Configure jenkins to the Git repo
 
-![Untitled](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/42b275a5-6bc7-4166-a70f-3f32f5e5ca3f)
+![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%203.png)
 
 ![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%204.png)
 
 Inside Sonarqube generate a token which can be used inside jenkins in order to authenticate.
 
-![Untitled](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/42b275a5-6bc7-4166-a70f-3f32f5e5ca3f)
+![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%205.png)
 
-![Untitled](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/1c7ce5e6-6212-4f39-9db6-a9e24bbf9a7d)
+![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%206.png)
 
 Setup docker credentials
 
