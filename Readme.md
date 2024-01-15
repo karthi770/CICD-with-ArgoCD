@@ -4,9 +4,9 @@
 
 Create an EC2 instance with t2.large and setup the security groups.
 
-![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled.png)
+![](https://github.com/karthi770/CICD-with-ArgoCD/assets/102706119/42b275a5-6bc7-4166-a70f-3f32f5e5ca3f)
 
-![Untitled](CI%20CD%20with%20ArgoCD%2037a9a47f4d7d4f51b5dc6fbd1c2a6755/Untitled%201.png)
+
 
 Create an IAM role with Admin access and attach it to the EC2 instance.
 
